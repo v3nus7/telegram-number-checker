@@ -16,6 +16,7 @@ import urllib.request
 import urllib.parse
 import urllib.error
 import json
+import socket
 from typing import Optional, Dict, Any
 
 
@@ -136,7 +137,7 @@ class TelegramChecker:
             raise APIRequestError(f"URL Error: {e.reason}")
         except json.JSONDecodeError as e:
             raise APIRequestError(f"Failed to parse API response: {e}")
-        except TimeoutError:
+        except socket.timeout:
             raise APIRequestError("Request timed out")
     
     def _clean_phone_number(self, phone_number: str) -> str:

@@ -1,7 +1,7 @@
 [project]
-name = "telegram-number-checker"
+name = "PyTgchecher"
 version = "0.1.0"
-description = "Telegram number checker client"
+description = "Telegram number checker API wrapper"
 authors = [{ name = "Javad" }]
 dependencies = ["httpx>=0.25"]
 requires-python = ">=3.10"

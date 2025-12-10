@@ -13,7 +13,7 @@ from .models import CheckResult
 BASE_URL = "http://api.irbots.com"
 
 
-class TelegramChecker:
+class TgChecker:
     """
     Sync and async client for checking Telegram number statuses.
     """

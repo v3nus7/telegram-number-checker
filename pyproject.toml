@@ -1,9 +1,9 @@
 [project]
-name = "PyTgchecker"
-version = "0.1.0"
-description = "Telegram number checker API wrapper"
-authors = [{ name = "Javad" }]
-dependencies = ["httpx>=0.25"]
+name = "Tgchecker"
+version = "0.2.0"
+description = "Telegram number checker"
+authors = [{ name = "Irbots" }]
+dependencies = ["httpx"]
 requires-python = ">=3.10"
 license = {text = "MIT"}
 

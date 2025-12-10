@@ -10,4 +10,10 @@ class CheckResult:
         self.status = status
 
     def __repr__(self):
-        return f"<CheckResult status={self.status} errors={self.errors} time_taken={self.time_taken} data={self.data}>"
+        return (
+            f"<CheckResult status={self.status} errors={self.errors} "
+            f"time_taken={self.time_taken} data={self.data}>"
+        )
+
+    def __str__(self):
+        return str(self.data)

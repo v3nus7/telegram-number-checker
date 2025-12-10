@@ -1,5 +1,5 @@
 [project]
-name = "PyTgchecher"
+name = "PyTgchecker"
 version = "0.1.0"
 description = "Telegram number checker API wrapper"
 authors = [{ name = "Javad" }]

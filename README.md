@@ -10,7 +10,7 @@
 IRbots provides a Telegram number status-checking service that lets you verify your target numbers on Telegram and determine whether they are banned, fresh, or already have an active session.
 
 This is a clean and minimal Python wrapper for the **irbots.com Telegram number status API**, supporting both **synchronous** and **asynchronous** usage.  
-
+[Click here to get your API key](https://irbots.com/TG-Number-Analyzer/)
 
 ## Usage/Examples
 

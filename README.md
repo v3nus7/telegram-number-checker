@@ -26,7 +26,7 @@ from Tgchecker import TgChecker
 
 client = TgChecker(api_key="YOUR_API_KEY")
 result = client.check_sync(["+12345678901", "+989121234567"])
-print(result.data)
+print(result)
 ```
 ## Async Example
 ```python
@@ -36,7 +36,7 @@ from Tgchecker import TgChecker
 async def main():
     client = TgChecker(api_key="YOUR_API_KEY")
     result = await client.check_async(["+12345678901"])
-    print(result.data)
+    print(result)
 
 asyncio.run(main())
 ```

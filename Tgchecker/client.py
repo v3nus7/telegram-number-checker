@@ -10,7 +10,7 @@ from .exceptions import (
 from .models import CheckResult
 
 
-BASE_URL = "http://api.irbots.com"
+BASE_URL = "http://checker.irbots.com"
 
 
 class TgChecker:

@@ -51,7 +51,7 @@ asyncio.run(main())
 
 #### check numbers
 ```http
-  GET http://api.irbots.com/?key={your_api_key}&target=checker&numbers=1,2,3,4
+  GET http://checker.irbots.com/?key={your_api_key}&target=checker&numbers=1,2,3,4
 ```
 
 

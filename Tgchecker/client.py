@@ -131,7 +131,7 @@ class TgChecker:
 
         try:
             return CheckResult(
-                data=data.get("data", {}),
+                data=data.get("data", 'Error'),
                 time_taken=data.get("Time taken", 0),
                 errors=data.get("errors", 0),
                 status=data.get("status", "unknown"),
